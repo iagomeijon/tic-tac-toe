@@ -1,0 +1,43 @@
+.Board {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px);
+
+  background-color: #000;
+  gap: 12px;
+
+  .Cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+
+    h1 {
+      font-size: 48px;
+    }
+
+    &:hover {
+      background-color: var(--main-color);
+    }
+  }
+
+  .O {
+    background-color: var(--O-color);
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: var(--O-color);
+    }
+  }
+
+  .X {
+    background-color: var(--X-color);
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: var(--X-color);
+    }
+  }
+}
