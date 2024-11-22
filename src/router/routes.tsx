@@ -1,7 +1,10 @@
+//MARK: LIBS
 import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
+
+//MARK: PAGES
 import Home from "../pages/Home";
 
 

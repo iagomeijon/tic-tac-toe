@@ -1,4 +1,6 @@
+//MARK: INTERFACES
 import IBoardProps from "./interfaces";
+//MARK: STYLES
 import "./styles.scss";
 
 function Board({ board, handleCellClick }: IBoardProps) {

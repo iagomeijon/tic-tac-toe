@@ -1,5 +1,7 @@
-import "./styles.scss";
+//MARK: INTERFACES
 import IFooterProps from "./interfaces";
+//MARK: STYLES
+import "./styles.scss";
 
 function Footer({ winner, resetGame }: IFooterProps) {
   const renderWinnerDesc = () => {

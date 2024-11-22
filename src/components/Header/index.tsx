@@ -1,4 +1,6 @@
+//MARK: INTERFACES
 import IHeaderProps from "./interfaces";
+//MARK: STYLES
 import './styles.scss';
 
 function Header({ title }: IHeaderProps) {
